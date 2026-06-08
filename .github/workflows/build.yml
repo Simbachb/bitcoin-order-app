@@ -1,5 +1,4 @@
 name: Bitcoin order App
-on:
   on:
   push:
     branches: [ master, main, 'feature/*' ]
