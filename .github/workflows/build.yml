@@ -1,8 +1,10 @@
 name: Bitcoin order App
 on:
+  on:
   push:
-    branches:
-      - master
+    branches: [ master, main, 'feature/*' ]
+  pull_request:
+    branches: [ master, main ]
 jobs:
   ci:
     runs-on: ubuntu-latest
